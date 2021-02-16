@@ -82,6 +82,9 @@
 
 /dev/st21nfc                                                                   u:object_r:nfc_device:s0
 
+# Power HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.pixel-libperfmgr    u:object_r:hal_power_default_exec:s0
+
 # Radio
 /data/vendor/misc/cutback(/.*)?                         u:object_r:cutback_data_file:s0
 /dev/socket/cutback                                     u:object_r:cutback_socket:s0
