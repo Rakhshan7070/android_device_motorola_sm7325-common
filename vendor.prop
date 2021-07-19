@@ -227,6 +227,9 @@ persist.vendor.ims.vt.enableadb=1
 # Incremental FS
 ro.incremental.enable=true
 
+# LMK
+ro.lmk.filecache_min_kb=153600
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
