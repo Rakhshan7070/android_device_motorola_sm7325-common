@@ -177,7 +177,9 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
-BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
+BOARD_VENDOR_SEPOLICY_DIRS += \
+    $(COMMON_PATH)/sepolicy/vendor \
+    $(COMMON_PATH)/sepolicy/dolby
 PRODUCT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 PRODUCT_PUBLIC_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/public
 
