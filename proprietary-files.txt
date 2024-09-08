@@ -7,7 +7,6 @@
 # libmdmcutback depends on libqsap_sdk, which is a gnu makefile target
 # libmotext_inf, libril-qcril-hook-oem depend on libril, which is a gnu makefile target
 # libqti-perfd, libgameoptfeature, thermal-engine depends on libthermalclient, which is device specific
-# libOmxVideoDSMode depends on libOmxCore, which is a gnu makefile target
 
 # ADSP
 vendor/bin/adsprpcd
@@ -552,29 +551,6 @@ vendor/lib64/libQnnHtpV68Stub.so
 
 # OEM
 vendor/bin/motobox;SYMLINK=vendor/bin/expat
-
-# OMX
-vendor/lib/libOmxAacDec.so
-vendor/lib/libOmxAlacDec.so
-vendor/lib/libOmxAmrDec.so
-vendor/lib/libOmxAmrwbplusDec.so
-vendor/lib/libOmxApeDec.so
-vendor/lib/libOmxDsdDec.so
-vendor/lib/libOmxEvrcDec.so
-vendor/lib/libOmxG711Dec.so
-vendor/lib/libOmxQcelp13Dec.so
-vendor/lib/libOmxVideoDSMode.so;DISABLE_CHECKELF
-vendor/lib/libOmxWmaDec.so
-vendor/lib/libdsd2pcm.so
-vendor/lib64/libOmxAacDec.so
-vendor/lib64/libOmxAlacDec.so
-vendor/lib64/libOmxAmrDec.so
-vendor/lib64/libOmxAmrwbplusDec.so
-vendor/lib64/libOmxApeDec.so
-vendor/lib64/libOmxEvrcDec.so
-vendor/lib64/libOmxG711Dec.so
-vendor/lib64/libOmxQcelp13Dec.so
-vendor/lib64/libOmxWmaDec.so
 
 # Perf
 vendor/bin/hw/vendor.qti.hardware.perf@2.2-service

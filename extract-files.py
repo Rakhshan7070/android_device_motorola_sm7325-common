@@ -48,7 +48,6 @@ lib_fixups: lib_fixups_user_type = {
     ): lib_fixup_vendor_suffix,
     (
         'libofflinelog',
-        'libOmxCore',
         'libqsap_sdk',
         'libril',
         'libthermalclient',
