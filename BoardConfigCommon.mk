@@ -8,8 +8,6 @@ BOARD_VENDOR := motorola
 
 COMMON_PATH := device/motorola/sm7325-common
 
-TARGET_KERNEL_CLANG_VERSION := r487747c
-
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-a
