@@ -424,8 +424,5 @@ PRODUCT_PACKAGES += \
     libpng.vendor \
     libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm7325-common/sm7325-common-vendor.mk)
